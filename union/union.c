@@ -49,10 +49,8 @@ int ft_union(char *str, char *str2)
 	{
 		
 		if (ft_verif(str2, str2[i], i) == 1)
-		{
 			if (ft_verif(str, str2[i], len) == 1)
 				ft_putchar(str2[i]);
-		}
 		i++;
 	}
 	ft_putchar('\n');
